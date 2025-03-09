@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <h1> Student Inserted</h1>
+    <p th:text="${dto.firstname}"></p>
+    <p th:text="${dto.lastname}"></p>
 </body>
 </html>
